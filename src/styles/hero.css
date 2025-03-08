@@ -1,0 +1,78 @@
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.hero-content {
+    margin-top: 10.75rem;
+}
+
+.hero-content h1 {
+    font-size: 3.87rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.hero-content h1 span {
+    color: #39DB4A;
+}
+
+.hero-content p {
+    font-size: 1.62rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: #4a4a4a;
+}
+.hero-content .order-now-btn { 
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    background-color: #39DB4A;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: -2px 10px 50px 0px #39DB4A80;
+
+}
+.watch-video-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 1rem;
+}
+.watch-video-btn p {
+    margin: 0;
+}
+.watch-video-btn button{
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    background-color: #fff;
+    box-shadow: 6px 27px 34px 0px #0000001A;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.watch-video-btn button img{
+    width: 36px;
+    height: 36px;
+}
+.hero-buttons {
+    display: flex;
+    gap: 2rem;
+}
+.hero-image {
+    position: relative;
+}
+.hero-image .mini-sushi-images{
+    width: 765px;
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+    z-index: -1;
+
+}
+

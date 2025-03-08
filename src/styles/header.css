@@ -1,7 +1,6 @@
 header {
     width: 100%;
     height: 150px;
-    background-color: #ccc;
     
     display: flex;
     align-items: center;
@@ -10,7 +9,6 @@ header {
 
 header .logo {
     width: 100px;
-    margin-left: 12%;
 }
 
 header .logo img {
@@ -22,15 +20,61 @@ header .logo img {
     width: 512px;
     display: flex;
     justify-content: space-evenly;
-    
+    font-size: 1.25rem; 
+    font-weight: 500;
+}
+.arrow-down {
+    margin-left: 5px;
 }
 
+/* CTA MENU STYLE */
+
 .cta-menu {
-    width: 200px;
+    width: 300px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    margin-right: 12%;
 }
 .cta-menu img {
     width: 24px;
+}
+.cta-menu .bag {
+    position: relative;
+}
+
+.cta-menu .bag::after {
+    content: '8';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #39DB4A;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 500;
+    transform: translate(50%, -50%);
+    z-index: 1;
+
+}
+.cta-menu button {
+    background-color: #39DB4A;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
