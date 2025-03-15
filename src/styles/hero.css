@@ -75,4 +75,12 @@
     z-index: -1;
 
 }
+.hero-image .best-sushi-image {
+    width: 248px;
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    z-index: 2;
+}
+
 
