@@ -1,11 +1,12 @@
+/* --------------------- popular categories section START ------------------------------ */
+
 #popular-categories {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 1200px;
-    padding: 0 20px;
+    margin-top: 12rem;
 
 }
 
@@ -20,13 +21,14 @@
 #popular-categories h2 {
     font-size: 3.75rem;
     font-weight: 700;
-    margin-bottom: 2rem;
+    margin-bottom: 4.12rem;
 
 }
 #popular-categories .categories {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
     margin-bottom: 2rem;
 }
 #popular-categories .categories .category {
@@ -56,4 +58,144 @@
     font-size: 1.37rem;
     font-weight: 500;
     color: #555555;
+    text-transform: lowercase;
+}
+
+/* ----------------------popular categories section END ----------------------------------------- */
+
+
+
+/* --------------------- feature products section START ---------------------------------------- */
+
+#featured-products {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 12rem;
+    text-align: left;
+}
+.featured-products-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+#featured-products img {
+    width: 296px;
+    height: 292px;
+}
+
+#featured-products p {
+    font-size: 1.37rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F63B3B;
+    margin-bottom: 16px;
+}
+#featured-products h2 {
+    font-size: 3.75rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+#featured-products .navigation-arrows {
+    display: flex;
+    gap: 3rem;
+    width: 210px;
+    margin-bottom: 2rem;
+}
+#featured-products .navigation-arrows .arrow {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #EFEFEF;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#featured-products .navigation-arrows .arrow img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+#featured-products .navigation-arrows .right{
+   background-color: var(--primary-accent-color);
+}
+#featured-products .navigation-arrows .left{
+    transform: rotate(180deg);
+}
+#featured-products .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+#featured-products .product {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    border-radius: 40px;
+    box-shadow: 0px 10px 20px 0px #0000001A;
+    transition: all 0.3s ease;
+
+}
+#featured-products .product .product-info {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+#featured-products .product h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    
+}
+#featured-products .product .description, #featured-products .product .price p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #555555;
+    text-transform: capitalize;
+   
+}
+#featured-products .product .price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+#featured-products .product .price span {
+    color: #F63B3B;
+    font-size: 22px;
+}
+#featured-products .product .price .price-value {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+  
+}
+#featured-products .product .star-icon {
+    width: 24px;
+    height: 24px;
+}
+#featured-products .product .product-favorite {
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 87px;
+   height: 75px;
+   background-color: var(--primary-accent-color);
+    border-radius: 0px 40px 0px 40px;
+    top: 0;
+    right: 0;
+}
+#featured-products .product .product-favorite img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
 }
