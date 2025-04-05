@@ -199,3 +199,100 @@
     height: 24px;
     object-fit: contain;
 }
+
+/* --------------------- feature products section END ---------------------------------------- */
+
+/* --------------------- Testimonials section START ---------------------------------------- */
+
+
+#testimonials {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    margin-top: 12rem;
+}
+#testimonials .testimonials-image img {
+    width: 646px;
+    height: 670px;
+}
+#testimonials-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+#testimonials .testimonials-header .testimonials-title {
+    font-size: 1.37rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F63B3B;
+    margin-bottom: 2rem;
+}
+#testimonials .testimonials-header h2 {
+    font-size: 3.75rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+#testimonials .testimonials-header .testimonials-message {
+    font-size: 1.37rem;
+    font-weight: 500;
+    color: #555555;
+    margin-bottom: 2rem;
+}
+.customers-feedback {
+    position: relative;
+    display: flex;
+    gap: 2rem;
+}
+.customers-feedback .customers-images {
+    position: relative;
+    display: flex;
+    width: 250px;
+    
+}
+.customers-feedback .customers-images img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.customers-feedback .customers-images img:first-child {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 90px;
+}
+.customers-feedback .customers-images img:nth-child(2) {
+    position: absolute;
+    top: 0; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+.customers-feedback .customers-images img:last-child {
+    position: absolute;
+    top: 0; 
+    right: 0;
+   
+    
+}
+.customers-feedback .customers-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.customers-feedback .customers-info h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+}
+.customers-feedback .customers-info p {
+    font-size: 24px;
+    font-weight: 500;
+}
+.customers-feedback .customers-info span {
+    font-size: 24px;
+    font-weight: 500;
+    color: #555555;
+}   
