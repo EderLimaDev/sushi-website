@@ -382,3 +382,97 @@
 
 
 /* --------------------- Story and Services section END ---------------------------------------- */
+
+
+
+/* --------------------- Footer section START ---------------------------------------- */
+
+
+
+#footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12rem;
+    padding: 2rem 0;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 30% 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 4rem;
+}
+.footer-content div {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.footer-logo {
+    padding-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.footer-logo img {
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+
+}
+
+.footer-content .footer-logo p,
+.footer-content ul li {
+    font-size: 24px;
+    font-weight: 500;
+    color: #555555;
+}
+.footer-content h3 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+.footer-content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.footer-social-media-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 10rem;
+}
+.footer-social-media-container p {
+    font-size: 22px;
+    font-weight: 500;
+    color: #555555;
+    align-self: flex-end;
+}
+.footer-social-media i {
+    background-color: #EDFFEF;
+   font-size: 24px;
+   color: #555555;
+   padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.footer-social-media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.footer-social-media li:hover > i {
+    background-color: #39DB4A;
+    color: #fff;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}

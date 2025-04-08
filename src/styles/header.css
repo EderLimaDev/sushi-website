@@ -23,6 +23,7 @@ header .logo img {
     justify-content: space-evenly;
     font-size: 1.25rem; 
     font-weight: 500;
+    cursor: pointer;
 }
 .arrow-down {
     margin-left: 5px;
