@@ -358,8 +358,9 @@
 }
 #story-services .services-cards {
     display: flex;
+    justify-content: flex-end;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 3rem;
 }
 #story-services .services-cards .card {
     display: flex;
